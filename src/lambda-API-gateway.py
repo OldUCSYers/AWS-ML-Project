@@ -1,4 +1,4 @@
 curl -X POST \
-  https://wcv3oyt4sj.execute-api.ap-southeast-1.amazonaws.com/default/lambda-api-gateway \
+  https://ct2vj553ck.execute-api.ap-southeast-1.amazonaws.com/default/data-validation \
   -H "Content-Type: application/json" \
   -d '{"input": "Hello Thet Su"}'
