@@ -25,8 +25,8 @@ from sklearn.metrics import mean_squared_error, r2_score
 
 # Create S3 client
 s3 = boto3.client('s3',
-    aws_access_key_id="AKIATEKYFOX5LWJ5P7PU",
-    aws_secret_access_key="K3z59GmSUqSkEFUPB1ML9BfcKfQUaj0jwsPkbPZG",
+    aws_access_key_id="dummy",
+    aws_secret_access_key="dummy",
     region_name="ap-southeast-1")
 
 # Read CSV directly into pandas (without downloading)
